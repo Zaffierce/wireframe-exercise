@@ -102,10 +102,21 @@ h1 {
 }
 
 #featured button {
+  border-radius: 15px;
+  width: 200px;
   float: left;
   background-color: #000;
   color: lightgray;
   font-size: 16px;
+  transition-property: color;
+  transition-delay: 350ms;
+}
+
+#featured button:hover {
+  color: red;
+  /* transition:  */
+  /* transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay]; */
+  /* background-color: darkorange; */
 }
 
 footer {
