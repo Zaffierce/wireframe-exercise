@@ -1,0 +1,10 @@
+main {
+  height: auto;
+  width: 960px;
+}
+
+#footer {
+  /* width: 960;
+  height: 200; */
+  border: 1px solid black;
+}
