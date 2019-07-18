@@ -1,0 +1,117 @@
+body {
+  height: auto;
+  width: 1080px;
+  margin: auto;
+  /* border: 1px black solid; */
+}
+
+header {
+  height: 80px;
+  background-color: #424242;
+  /* text-align: center; */
+  /* display: block; */
+}
+
+header div {
+  width: 80%;
+  margin: auto;
+}
+
+header img {
+  padding-top: 5px;
+  display: inline;
+  margin: auto;
+}
+
+nav {
+  display: inline-block;
+  /* width: 60%; */
+  position: absolute;
+}
+
+nav ul {
+  /* border: 1px black solid; */
+}
+
+nav li {
+  display: inline-block; /*Places the links in a row*/
+  padding: 30px;
+}
+
+nav a {
+  color: lightgray;
+  text-decoration: none;
+  /* border: 1px red solid; */
+}
+
+main {
+  text-align: center;
+  width: 960px;
+  margin: auto;
+  height: auto;
+  /* border: 1px green solid; */
+  padding-bottom: 30px;
+}
+
+main section {
+  padding-top: 30px;
+}
+
+main img {
+  display: inline-block;
+}
+
+#banner {
+  margin: auto;
+}
+
+#banner img:nth-child(2) {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#featured {
+  font-size: 16px;
+  text-align: center;
+  /* border: 1px blue dotted; */
+  height: 400px;
+  /* display: inline-block; */
+}
+
+#featured img {
+  float: left; /*Puts the image to the left of the text*/
+  /* border: 1px purple dotted; */
+  padding-right: 30px;
+}
+
+h1 {
+  /* float: left; */
+  text-align: left;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#featured p {
+  text-align: left;
+  height: 350px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.1;
+  overflow: scroll;
+}
+
+#featured button {
+  float: left;
+  background-color: #000;
+  color: lightgray;
+  font-size: 16px;
+}
+
+footer {
+  clear: both;
+  height: 80px;
+  background-color: #424242;
+  text-align: center;
+  display: block;
+}
